@@ -1,0 +1,431 @@
+# Copyright (C) 2019-2024 Iulia Cazan
+# This file is distributed under the same license as the Sticky Header 2020 plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sticky Header 2020 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sh2020\n"
+"POT-Creation-Date: 2024-04-06T16:34:41+00:00\n"
+"PO-Revision-Date: 2024-04-06 19:41+0300\n"
+"Last-Translator: Iulia Cazan\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: sh2020\n"
+
+#. Plugin Name of the plugin
+#: class-sticky-header-2020.php:1826 class-sticky-header-2020.php:1827 class-sticky-header-2020.php:2034 class-sticky-header-2020.php:2096
+msgid "Sticky Header 2020"
+msgstr "Antet Sticky 2020"
+
+#. Plugin URI of the plugin
+msgid "https://iuliacazan.ro/sticky-header-2020/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin appends custom functionality to the native customizer and provides the settings for making the header sticky, with settings for scroll minification, shadow, background, spacing, text, menu and icons colors, etc. This "
+"is compatible with Twenty Twenty -> Twenty Twenty-Four, Astra, and Hello Elementor themes."
+msgstr ""
+"Acest modul adaugă funcționalitate specifică personalizatorului nativ și furnizează setările pentru a face partea de sus lipicioasă, cu setări pentru minificare la derulare, umbră, culori pentru fundal, spațiere, text, meniu și "
+"iconițe, etc. Acesta este compatibil cu temele Twenty Twenty -> Twenty Twenty-Four, Astra și Hello Elementor."
+
+#. Author of the plugin
+msgid "Iulia Cazan"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/iulia-cazan"
+msgstr ""
+
+#: class-sticky-header-2020.php:251
+msgid "Sticky Header"
+msgstr "Antet Sticky"
+
+#: class-sticky-header-2020.php:254
+msgid "Here you can adjust specific settings for the theme sticky header. Please note that the settings below apply if the sticky header is enabled."
+msgstr "Aici puteți ajusta setări specifice pentru antetul sticky al temei. Vă rugăm să rețineți că setările de mai jos se aplică dacă antetul sticky este activat."
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: class-sticky-header-2020.php:277
+msgid "You are using the free version, some settings are available only in the %1$s version.<br>See more %2$sdetails%3$s."
+msgstr "Folosiți versiunea gratuită, unele setări sunt disponibile doar în versiunea %1$s.<br>Vedeți mai multe %2$sdetalii%3$s."
+
+#: class-sticky-header-2020.php:312
+msgid "Header Selector (ID)"
+msgstr "Selector antet (ID)"
+
+#: class-sticky-header-2020.php:313 class-sticky-header-2020.php:458 class-sticky-header-2020.php:483 class-sticky-header-2020.php:532 class-sticky-header-2020.php:557 class-sticky-header-2020.php:591 class-sticky-header-2020.php:616
+#: pro-settings.php:194
+msgid "default"
+msgstr "implicit"
+
+#. Translators: %1$s - selector tt, %2$s - selector tto.
+#: class-sticky-header-2020.php:327
+msgid ""
+"The selector for the header element for theme: <ol><li>Twenty Twenty - %1$s</li><li>Twenty Twenty-One and Astra - %2$s</li><li>Twenty Twenty-Two, Twenty Twenty-Three, and Twenty Twenty-Four - %3$s</li><li>Hello Elementor - %4$s</"
+"li></ol>"
+msgstr ""
+"Selectorul pentru elementul antet al temei: <ol><li>Twenty Twenty - %1$s</li><li>Twenty Twenty-One și Astra - %2$s</li><li>Twenty Twenty-Two, Twenty Twenty-Three și Twenty Twenty-Four - %3$s</li><li>Hello Elementor - %4$s</li></ol>"
+
+#: class-sticky-header-2020.php:352
+msgid "Make the header sticky"
+msgstr "Fă antetul sticky"
+
+#: class-sticky-header-2020.php:372
+msgid "Make the header align full (useful for Gutenberg compatible themes, like Twenty Twenty-One for example)"
+msgstr "Fă antetul să se alinieze complet (util pentru temele compatibile cu Gutenbers, ca de exemplu Twenty Twenty-One)"
+
+#: class-sticky-header-2020.php:392
+msgid "Remove the header sticky settings when the plugin is disabled"
+msgstr "Ștergeți setările antetul sticky când modulul este dezactivat"
+
+#: class-sticky-header-2020.php:419
+msgid "Header General Settings"
+msgstr "Setări generale antet"
+
+#: class-sticky-header-2020.php:420
+msgid ""
+"The settings below will change the header height and will display a resized logo based on the header height and the vertical spacing (the logo and menu top and bottom spacing) you set here. The units can be <b>px</b>, <b>em</b>, "
+"<b>rem</b>, <b>%</b> or <b>vh</b> (it's recommended to use px for a more accurate result)."
+msgstr ""
+"Setările de mai jos vor schimba înălțimea antetului și vor afișa o siglă scalată în funcție de înălțimea antetului și de spațierea verticală (spațierea sus și jos a siglei și meniului) pe care le setați aici. Unitățile pot fi "
+"<b>px</b>, <b>em</b>, <b>rem</b>, <b>%</b> or <b>vh</b> (se recomandă folosirea de px pentru un rezultat cât mai fidel)."
+
+#: class-sticky-header-2020.php:428
+msgid "Background Color"
+msgstr "Culoare fundal"
+
+#: class-sticky-header-2020.php:436
+msgid "Minified Header Background Color"
+msgstr "Culoare fundal antet minificat"
+
+#: class-sticky-header-2020.php:457 class-sticky-header-2020.php:590
+msgid "Header Height"
+msgstr "Înălțime antet"
+
+#: class-sticky-header-2020.php:482
+msgid "Vertical Spacing"
+msgstr "Spațiere verticală"
+
+#: class-sticky-header-2020.php:496
+msgid "The header shadow options."
+msgstr "Opțiunile de umbră pentru antet."
+
+#: class-sticky-header-2020.php:501 pro-settings.php:193
+msgid "Box Shadow Size"
+msgstr "Mărime umbră"
+
+#: class-sticky-header-2020.php:502 pro-settings.php:204
+msgid "Box Shadow Color"
+msgstr "Culoare umbră"
+
+#: class-sticky-header-2020.php:511
+msgid "When you scroll the page, the header (also the logo) will reduce its height. The settings for the minified header can be adjusted below. To preview the changes you have to scroll up and down the page."
+msgstr "Când derulați pagina, antetul (cu tot cu siglă) îți va reduce înălțimea. Setările pentru antetul minificat se pot modifica de mai jos. Pentru a previzualiza modificările trebuie să derulați pagina în sus și în jos."
+
+#: class-sticky-header-2020.php:531
+msgid "Minified Header Height"
+msgstr "Înălțime antet minificat"
+
+#: class-sticky-header-2020.php:556
+msgid "Minified Vertical Spacing"
+msgstr "Spațiere verticală minificată"
+
+#: class-sticky-header-2020.php:569
+msgid "Mobile/Tablet Header"
+msgstr "Antet mobil/tabletă"
+
+#: class-sticky-header-2020.php:570
+msgid "The settings for the mobile/tablet devices header can be adjusted below."
+msgstr "Setările pentru antetul pe dispozitivele mobile/tablete se pot modifica mai jos."
+
+#: class-sticky-header-2020.php:615
+msgid "Mobile/Tablet Vertical Spacing"
+msgstr "Spațiere verticală mobil/tabletă"
+
+#: class-sticky-header-2020.php:629
+msgid "Header Elements Colors"
+msgstr "Culoari elemente antet"
+
+#: class-sticky-header-2020.php:630
+msgid "The settings below will applied to the elements inside the sticky header."
+msgstr "Setările de mai jos se aplică elementelor din interiorul antetului sticky."
+
+#: class-sticky-header-2020.php:637 pro-settings.php:213
+msgid "Text/Separators Color"
+msgstr "Culoare text/separatori"
+
+#: class-sticky-header-2020.php:638 pro-settings.php:222
+msgid "Icons Color"
+msgstr "Culoare iconițe"
+
+#: class-sticky-header-2020.php:639 pro-settings.php:231
+msgid "Links Color"
+msgstr "Culoare legături"
+
+#: class-sticky-header-2020.php:640 pro-settings.php:240
+msgid "Links Hover Color"
+msgstr "Culoare legături active"
+
+#: class-sticky-header-2020.php:648
+msgid "Menu & Submenu Extra Options"
+msgstr "Extra opțiuni meniu & submeniu"
+
+#: class-sticky-header-2020.php:649
+msgid "Apart from the links color, you can adjust the icon, the submenu background and the current item color."
+msgstr "În afară de culoarea legăturilor, puteți ajusta culoarea pentru iconiță, fundal submeniu și cea a elementului curent."
+
+#: class-sticky-header-2020.php:655 pro-settings.php:249
+msgid "Icons Color for Menu & Submenu"
+msgstr "Culoare iconițe pentru meniu & submeniu"
+
+#: class-sticky-header-2020.php:656 pro-settings.php:258
+msgid "Link Color for Current Menu Item"
+msgstr "Culoare legătură pentru element meniu curent"
+
+#: class-sticky-header-2020.php:663
+msgid "Submenu Background Color"
+msgstr "Culoare fundal submeniu"
+
+#: class-sticky-header-2020.php:684
+msgid "No decoration for menu items"
+msgstr "Nici o decorațiune pentru elemente de meniu"
+
+#: class-sticky-header-2020.php:692
+msgid "Hide Labels"
+msgstr "Ascundeți etichete"
+
+#: class-sticky-header-2020.php:693
+msgid "Hide the texts under the menu and search icons."
+msgstr "Ascundeți textele de sub iconițele de meniu și căutare."
+
+#: class-sticky-header-2020.php:713
+msgid "Hide the menu label"
+msgstr "Ascundeți eticheta meniului"
+
+#: class-sticky-header-2020.php:733
+msgid "Hide the search label"
+msgstr "Ascundeți eticheta căutării"
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: class-sticky-header-2020.php:744
+msgid "If any of the customizer settings above did not update the preview correctly, you can click to %1$sRefresh the preview%2$s"
+msgstr "Dacă oricare dintre setările de customizare de mai sus nu au actualizat corect previzualizarea, puteți apăsa ca să %1$sActualizați previzualizarea%2$s"
+
+#: class-sticky-header-2020.php:749 class-sticky-header-2020.php:1897
+msgid "Click to reset to default all the settings of this plugin (this will also turn off the sticky header and the styles will not override the theme defaults)."
+msgstr "Apăsați ca să resetați toate setările acestui modul (această operațiune va dezactiva și antetul sticky și stilurile nu le vor mai suprascrie pe cele ale temei)."
+
+#: class-sticky-header-2020.php:750 class-sticky-header-2020.php:1895 class-sticky-header-2020.php:1900 pro-settings.php:358
+msgid "Reset"
+msgstr "Resetare"
+
+#. Translators: %1$s - link to pro version.
+#: class-sticky-header-2020.php:847
+msgid "Available in the %1$s version."
+msgstr "Disponibil în versiunea %1$s."
+
+#: class-sticky-header-2020.php:1840 class-sticky-header-2020.php:1972
+msgid "Action not allowed."
+msgstr "Acțiune nepermisă."
+
+#: class-sticky-header-2020.php:1872
+msgid "Sticky Header 2020 Settings"
+msgstr "Setări antet sticky 2020"
+
+#: class-sticky-header-2020.php:1890
+msgid "Customize"
+msgstr "Personalizare"
+
+#: class-sticky-header-2020.php:1891
+msgid "Click the settings button to open the customizer and adjust the sticky header settings while previewing the changes."
+msgstr "Apăsați butonul setări pentru a deschide personalizatorul și să ajustați setările antetului sticky și în același timp să vizualizați modificările."
+
+#: class-sticky-header-2020.php:1892 class-sticky-header-2020.php:2224
+msgid "Settings"
+msgstr "Setări"
+
+#: class-sticky-header-2020.php:1904
+msgid "Hints"
+msgstr "Indicii"
+
+#: class-sticky-header-2020.php:1905
+msgid "If you want to see more about the pro settings, you can enable the hints (these show up in the customizer section)."
+msgstr "Dacă doriți să vedeți mai multe despre setările pro, puteți să activați indiciile (aceste apar în secțiunea de personalizare)."
+
+#: class-sticky-header-2020.php:1912
+msgid "Hide Hints"
+msgstr "Ascunde indiciile"
+
+#: class-sticky-header-2020.php:1918
+msgid "Show Hints"
+msgstr "Arată indiciile"
+
+#: class-sticky-header-2020.php:1926
+msgid "Export"
+msgstr "Export"
+
+#: class-sticky-header-2020.php:1928
+msgid "The JSON string can be copied and imported into another instance."
+msgstr "Șirul de caractere JSON poate fi copiat și importat într-o altă instanță."
+
+#: class-sticky-header-2020.php:1932 class-sticky-header-2020.php:1935
+msgid "Import"
+msgstr "Import"
+
+#: class-sticky-header-2020.php:1934
+msgid "Paste the JSON string then click the button to import the settings."
+msgstr "Lipiți șirul de caractere JSON, apoi apăsați butonul pentru a importa setările."
+
+#: class-sticky-header-2020.php:1939
+msgid "Demo"
+msgstr "Demo"
+
+#: class-sticky-header-2020.php:1944
+msgid "Read more"
+msgstr "Citește mai mult"
+
+#. Translators: %1$s - link, %2$s - end link, %3$s - link, %4$s - end link.
+#: class-sticky-header-2020.php:1949
+msgid "If you want to see more about this plugin, here are some links to the %1$s version%2$s and the %3$sfree version%4$s."
+msgstr "Dacă doriți să vedeți mai multe despre acest modul, aici sunt câteva legături la versiunea %1$s%2$s și la %3$sversiunea gratuită%4$s."
+
+#: class-sticky-header-2020.php:1972
+msgid "Security Breach"
+msgstr "Breșă de securitate"
+
+#: class-sticky-header-2020.php:1978
+msgid "The settings were reset to default."
+msgstr "Setările au fost resetate la cele implicite."
+
+#: class-sticky-header-2020.php:1984
+msgid "The hints are turned on."
+msgstr "Indiciile sunt dezactivate."
+
+#: class-sticky-header-2020.php:1987
+msgid "The hints are turned off."
+msgstr "Indiciile sunt activate."
+
+#: class-sticky-header-2020.php:2007
+msgid "You are using the free version."
+msgstr "Folosiți versiunea gratuită."
+
+#. Translators: %1$s - extensions URL.
+#: class-sticky-header-2020.php:2012
+msgid "Click the button to see more and get the <a class=\"pro-item button button-primary\" href=\"%1$s\" target=\"_blank\">version</a> of the plugin!"
+msgstr "Apăsați butonul pentru a vedea mai multe și pentru a cumpăra <a class=\"pro-item button button-primary\" href=\"%1$s\" target=\"_blank\">versiunea pro</a> a acestui modul!"
+
+#: class-sticky-header-2020.php:2018
+msgid "You are using the PRO version."
+msgstr "Folosiți versiunea PRO."
+
+#: class-sticky-header-2020.php:2020
+msgid "It seems that you either did not input yet your license key, or that is not valid or has expired already."
+msgstr "Se pare că încă nu ați introdus cheia licenței ori aceasta nu este validă sau a expirat deja."
+
+#. Translators: %1$s - extensions URL.
+#: class-sticky-header-2020.php:2025
+msgid "Click the button to get a valid license key for the <a class=\"pro-item button button-primary\" href=\"%1$s\" target=\"_blank\">version</a> of the plugin!"
+msgstr "Apăsați butonul pentru a cumpăra o cheie de licență validă pentru <a class=\"pro-item button button-primary\" href=\"%1$s\" target=\"_blank\">versiunea pro</a> a modulului!"
+
+#: class-sticky-header-2020.php:2036
+msgid "This plugin appends custom functionality to the native customizer, and provides the settings for making the header sticky, with settings for scroll minification, background, spacing, text, menu and icons colors, etc."
+msgstr ""
+"Acest modul adaugă funcționalitate specifică personalizatorului nativ și furnizează setările pentru a face antetul lipicios, cu setări pentru minificare la derulare, umbră, culori pentru fundal, spațiere, text, meniu și iconițe, "
+"etc."
+
+#: class-sticky-header-2020.php:2042
+msgid "The PRO version includes additional useful features"
+msgstr "Versiunea PRO include funcționalități adiționale utile"
+
+#: class-sticky-header-2020.php:2044
+msgid "Header Elements Color"
+msgstr "Culoare elemente antet"
+
+#: class-sticky-header-2020.php:2045
+msgid "Links & Submenu Settings"
+msgstr "Setări legături și submeniu"
+
+#: class-sticky-header-2020.php:2046
+msgid "The header shadow option"
+msgstr "Opțiune umbră pentru antet"
+
+#: class-sticky-header-2020.php:2061 class-sticky-header-2020.php:2075 class-sticky-header-2020.php:2098
+msgid "A huge thanks in advance!"
+msgstr "Multe mulțumiri în avans!"
+
+#. Translators: %1$s - donate URL, %2$s - rating, %3$s - thanks.
+#: class-sticky-header-2020.php:2066 class-sticky-header-2020.php:2147
+msgid "If you find the plugin useful and would like to support my work, please consider making a <a href=\"%1$s\" target=\"_blank\">donation</a>. <br>It would make me very happy if you would leave a %2$s rating. %3$s"
+msgstr "Dacă acest modul îți este folositor și ai dori să îmi sprijini munca, m-aș bucura dacă ai face o <a href=\"%1$s\" target=\"_blank\">donație</a>. <br>M-ar bucura mult dacă ai lăsa o recenzie de %2$s. %3$s"
+
+#. Translators: %1$s - 5 stars, %2$s - thanks.
+#: class-sticky-header-2020.php:2074
+msgid "It would make me very happy if you would leave a %1$s rating. %2$s"
+msgstr "M-ar bucura mult dacă ai lăsa o recenzie de %1$s. %2$s"
+
+#. Translators: %1$s - extensions URL.
+#: class-sticky-header-2020.php:2104
+msgid "You are using the free version. Get the <a href=\"%1$s\" target=\"_blank\"><b>PRO</b> version</a>. "
+msgstr "Momentan folosiți versiunea gratuită. Cumpărați <a href=\"%1$s\" target=\"_blank\">versiunea <b>PRO</b></a>. "
+
+#. Translators: %1$s - pro version label, %2$s - PRO URL.
+#: class-sticky-header-2020.php:2110
+msgid "Thank you for purchasing the <a href=\"%1$s\" target=\"_blank\"><b>PRO</b> version</a>! "
+msgstr "Mulțumesc că ai achiziționat <a href=\"%1$s\" target=\"_blank\">versiunea <b>PRO</b></a>! "
+
+#. Translators: %1$s - plugins URL, %2$s - heart icon, %3$s - extensions URL, %4$s - star icon, %5$s - maybe PRO details.
+#: class-sticky-header-2020.php:2117
+msgid "%5$sCheck out my other <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer\">%2$s free plugins</a> on WordPress.org and the <a href=\"%3$s\" target=\"_blank\" rel=\"noreferrer\">%4$s other extensions</a> available!"
+msgstr "%5$sVezi și celelalte <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer\">%2$s module gratuite</a> ale mele pe WordPress.org și <a href=\"%3$s\" target=\"_blank\" rel=\"noreferrer\">%4$s extensiile premium</a> disponibile!"
+
+#. Translators: %1$s - plugin name.
+#: class-sticky-header-2020.php:2136
+msgid "%1$s plugin was activated!"
+msgstr "Modulul %1$s a fost activat!"
+
+#: class-sticky-header-2020.php:2225
+msgid "Cusomizer"
+msgstr "Personalizator"
+
+#: class-sticky-header-2020.php:2226
+msgid "Plugin URL"
+msgstr "URL modul"
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: pro-settings.php:34
+msgid "Thank you for purchasing the %1$s version!<br>See more %2$sdetails%3$s."
+msgstr "Mulțumesc că ai achiziționat versiunea %1$s!<br>Vezi mai multe %2$sdetalii%3$s."
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: pro-settings.php:43
+msgid "Currently the license key is not active and some of the PRO features are disabled. Go to license key %1$ssettings%2$s."
+msgstr "Momentan, cheia licenței nu este activă și unele funcționalități PRO sunt dezactivate. Mergeți la %1$ssetările%2$s pentru cheia licenței."
+
+#: pro-settings.php:342
+msgid "License Key"
+msgstr "Cheie licență"
+
+#: pro-settings.php:351
+msgid "Validate"
+msgstr "Validare"
+
+#: pro-settings.php:353
+msgid "Activate"
+msgstr "Activare"
+
+#. Translators: %s - expire date.
+#: pro-settings.php:366
+msgid "The license key expiration date is %s."
+msgstr "Data expirării pentru cheia licenței este %s."
+
+#: pro-settings.php:477
+msgid "Your license key is not valid. Please validate the license key and review one more time the pro settings, these might have been reset to defaults."
+msgstr "Cheia dumneavoastră de licență nu este validă. Vă rugăm să validați cheia de licență și să verificați încă o dată setările pro, este posibil ca acestea să se reseteze."
+
+#: pro-settings.php:505
+msgid "The settings were imported"
+msgstr "Setările au fost importate"

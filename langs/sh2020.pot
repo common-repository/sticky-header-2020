@@ -1,0 +1,445 @@
+# Copyright (C) 2024 Iulia Cazan
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sticky Header 2020 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sh2020\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-06T16:34:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: sh2020\n"
+
+#. Plugin Name of the plugin
+#: class-sticky-header-2020.php:1826
+#: class-sticky-header-2020.php:1827
+#: class-sticky-header-2020.php:2034
+#: class-sticky-header-2020.php:2096
+msgid "Sticky Header 2020"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://iuliacazan.ro/sticky-header-2020/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin appends custom functionality to the native customizer and provides the settings for making the header sticky, with settings for scroll minification, shadow, background, spacing, text, menu and icons colors, etc. This is compatible with Twenty Twenty -> Twenty Twenty-Four, Astra, and Hello Elementor themes."
+msgstr ""
+
+#. Author of the plugin
+msgid "Iulia Cazan"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/iulia-cazan"
+msgstr ""
+
+#: class-sticky-header-2020.php:251
+msgid "Sticky Header"
+msgstr ""
+
+#: class-sticky-header-2020.php:254
+msgid "Here you can adjust specific settings for the theme sticky header. Please note that the settings below apply if the sticky header is enabled."
+msgstr ""
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: class-sticky-header-2020.php:277
+msgid "You are using the free version, some settings are available only in the %1$s version.<br>See more %2$sdetails%3$s."
+msgstr ""
+
+#: class-sticky-header-2020.php:312
+msgid "Header Selector (ID)"
+msgstr ""
+
+#: class-sticky-header-2020.php:313
+#: class-sticky-header-2020.php:458
+#: class-sticky-header-2020.php:483
+#: class-sticky-header-2020.php:532
+#: class-sticky-header-2020.php:557
+#: class-sticky-header-2020.php:591
+#: class-sticky-header-2020.php:616
+#: pro-settings.php:194
+msgid "default"
+msgstr ""
+
+#. Translators: %1$s - selector tt, %2$s - selector tto.
+#: class-sticky-header-2020.php:327
+msgid "The selector for the header element for theme: <ol><li>Twenty Twenty - %1$s</li><li>Twenty Twenty-One and Astra - %2$s</li><li>Twenty Twenty-Two, Twenty Twenty-Three, and Twenty Twenty-Four - %3$s</li><li>Hello Elementor - %4$s</li></ol>"
+msgstr ""
+
+#: class-sticky-header-2020.php:352
+msgid "Make the header sticky"
+msgstr ""
+
+#: class-sticky-header-2020.php:372
+msgid "Make the header align full (useful for Gutenberg compatible themes, like Twenty Twenty-One for example)"
+msgstr ""
+
+#: class-sticky-header-2020.php:392
+msgid "Remove the header sticky settings when the plugin is disabled"
+msgstr ""
+
+#: class-sticky-header-2020.php:419
+msgid "Header General Settings"
+msgstr ""
+
+#: class-sticky-header-2020.php:420
+msgid "The settings below will change the header height and will display a resized logo based on the header height and the vertical spacing (the logo and menu top and bottom spacing) you set here. The units can be <b>px</b>, <b>em</b>, <b>rem</b>, <b>%</b> or <b>vh</b> (it's recommended to use px for a more accurate result)."
+msgstr ""
+
+#: class-sticky-header-2020.php:428
+msgid "Background Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:436
+msgid "Minified Header Background Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:457
+#: class-sticky-header-2020.php:590
+msgid "Header Height"
+msgstr ""
+
+#: class-sticky-header-2020.php:482
+msgid "Vertical Spacing"
+msgstr ""
+
+#: class-sticky-header-2020.php:496
+msgid "The header shadow options."
+msgstr ""
+
+#: class-sticky-header-2020.php:501
+#: pro-settings.php:193
+msgid "Box Shadow Size"
+msgstr ""
+
+#: class-sticky-header-2020.php:502
+#: pro-settings.php:204
+msgid "Box Shadow Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:511
+msgid "When you scroll the page, the header (also the logo) will reduce its height. The settings for the minified header can be adjusted below. To preview the changes you have to scroll up and down the page."
+msgstr ""
+
+#: class-sticky-header-2020.php:531
+msgid "Minified Header Height"
+msgstr ""
+
+#: class-sticky-header-2020.php:556
+msgid "Minified Vertical Spacing"
+msgstr ""
+
+#: class-sticky-header-2020.php:569
+msgid "Mobile/Tablet Header"
+msgstr ""
+
+#: class-sticky-header-2020.php:570
+msgid "The settings for the mobile/tablet devices header can be adjusted below."
+msgstr ""
+
+#: class-sticky-header-2020.php:615
+msgid "Mobile/Tablet Vertical Spacing"
+msgstr ""
+
+#: class-sticky-header-2020.php:629
+msgid "Header Elements Colors"
+msgstr ""
+
+#: class-sticky-header-2020.php:630
+msgid "The settings below will applied to the elements inside the sticky header."
+msgstr ""
+
+#: class-sticky-header-2020.php:637
+#: pro-settings.php:213
+msgid "Text/Separators Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:638
+#: pro-settings.php:222
+msgid "Icons Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:639
+#: pro-settings.php:231
+msgid "Links Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:640
+#: pro-settings.php:240
+msgid "Links Hover Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:648
+msgid "Menu & Submenu Extra Options"
+msgstr ""
+
+#: class-sticky-header-2020.php:649
+msgid "Apart from the links color, you can adjust the icon, the submenu background and the current item color."
+msgstr ""
+
+#: class-sticky-header-2020.php:655
+#: pro-settings.php:249
+msgid "Icons Color for Menu & Submenu"
+msgstr ""
+
+#: class-sticky-header-2020.php:656
+#: pro-settings.php:258
+msgid "Link Color for Current Menu Item"
+msgstr ""
+
+#: class-sticky-header-2020.php:663
+msgid "Submenu Background Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:684
+msgid "No decoration for menu items"
+msgstr ""
+
+#: class-sticky-header-2020.php:692
+msgid "Hide Labels"
+msgstr ""
+
+#: class-sticky-header-2020.php:693
+msgid "Hide the texts under the menu and search icons."
+msgstr ""
+
+#: class-sticky-header-2020.php:713
+msgid "Hide the menu label"
+msgstr ""
+
+#: class-sticky-header-2020.php:733
+msgid "Hide the search label"
+msgstr ""
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: class-sticky-header-2020.php:744
+msgid "If any of the customizer settings above did not update the preview correctly, you can click to %1$sRefresh the preview%2$s"
+msgstr ""
+
+#: class-sticky-header-2020.php:749
+#: class-sticky-header-2020.php:1897
+msgid "Click to reset to default all the settings of this plugin (this will also turn off the sticky header and the styles will not override the theme defaults)."
+msgstr ""
+
+#: class-sticky-header-2020.php:750
+#: class-sticky-header-2020.php:1895
+#: class-sticky-header-2020.php:1900
+#: pro-settings.php:358
+msgid "Reset"
+msgstr ""
+
+#. Translators: %1$s - link to pro version.
+#: class-sticky-header-2020.php:847
+msgid "Available in the %1$s version."
+msgstr ""
+
+#: class-sticky-header-2020.php:1840
+#: class-sticky-header-2020.php:1972
+msgid "Action not allowed."
+msgstr ""
+
+#: class-sticky-header-2020.php:1872
+msgid "Sticky Header 2020 Settings"
+msgstr ""
+
+#: class-sticky-header-2020.php:1890
+msgid "Customize"
+msgstr ""
+
+#: class-sticky-header-2020.php:1891
+msgid "Click the settings button to open the customizer and adjust the sticky header settings while previewing the changes."
+msgstr ""
+
+#: class-sticky-header-2020.php:1892
+#: class-sticky-header-2020.php:2224
+msgid "Settings"
+msgstr ""
+
+#: class-sticky-header-2020.php:1904
+msgid "Hints"
+msgstr ""
+
+#: class-sticky-header-2020.php:1905
+msgid "If you want to see more about the pro settings, you can enable the hints (these show up in the customizer section)."
+msgstr ""
+
+#: class-sticky-header-2020.php:1912
+msgid "Hide Hints"
+msgstr ""
+
+#: class-sticky-header-2020.php:1918
+msgid "Show Hints"
+msgstr ""
+
+#: class-sticky-header-2020.php:1926
+msgid "Export"
+msgstr ""
+
+#: class-sticky-header-2020.php:1928
+msgid "The JSON string can be copied and imported into another instance."
+msgstr ""
+
+#: class-sticky-header-2020.php:1932
+#: class-sticky-header-2020.php:1935
+msgid "Import"
+msgstr ""
+
+#: class-sticky-header-2020.php:1934
+msgid "Paste the JSON string then click the button to import the settings."
+msgstr ""
+
+#: class-sticky-header-2020.php:1939
+msgid "Demo"
+msgstr ""
+
+#: class-sticky-header-2020.php:1944
+msgid "Read more"
+msgstr ""
+
+#. Translators: %1$s - link, %2$s - end link, %3$s - link, %4$s - end link.
+#: class-sticky-header-2020.php:1949
+msgid "If you want to see more about this plugin, here are some links to the %1$s version%2$s and the %3$sfree version%4$s."
+msgstr ""
+
+#: class-sticky-header-2020.php:1972
+msgid "Security Breach"
+msgstr ""
+
+#: class-sticky-header-2020.php:1978
+msgid "The settings were reset to default."
+msgstr ""
+
+#: class-sticky-header-2020.php:1984
+msgid "The hints are turned on."
+msgstr ""
+
+#: class-sticky-header-2020.php:1987
+msgid "The hints are turned off."
+msgstr ""
+
+#: class-sticky-header-2020.php:2007
+msgid "You are using the free version."
+msgstr ""
+
+#. Translators: %1$s - extensions URL.
+#: class-sticky-header-2020.php:2012
+msgid "Click the button to see more and get the <a class=\"pro-item button button-primary\" href=\"%1$s\" target=\"_blank\">version</a> of the plugin!"
+msgstr ""
+
+#: class-sticky-header-2020.php:2018
+msgid "You are using the PRO version."
+msgstr ""
+
+#: class-sticky-header-2020.php:2020
+msgid "It seems that you either did not input yet your license key, or that is not valid or has expired already."
+msgstr ""
+
+#. Translators: %1$s - extensions URL.
+#: class-sticky-header-2020.php:2025
+msgid "Click the button to get a valid license key for the <a class=\"pro-item button button-primary\" href=\"%1$s\" target=\"_blank\">version</a> of the plugin!"
+msgstr ""
+
+#: class-sticky-header-2020.php:2036
+msgid "This plugin appends custom functionality to the native customizer, and provides the settings for making the header sticky, with settings for scroll minification, background, spacing, text, menu and icons colors, etc."
+msgstr ""
+
+#: class-sticky-header-2020.php:2042
+msgid "The PRO version includes additional useful features"
+msgstr ""
+
+#: class-sticky-header-2020.php:2044
+msgid "Header Elements Color"
+msgstr ""
+
+#: class-sticky-header-2020.php:2045
+msgid "Links & Submenu Settings"
+msgstr ""
+
+#: class-sticky-header-2020.php:2046
+msgid "The header shadow option"
+msgstr ""
+
+#: class-sticky-header-2020.php:2061
+#: class-sticky-header-2020.php:2075
+#: class-sticky-header-2020.php:2098
+msgid "A huge thanks in advance!"
+msgstr ""
+
+#. Translators: %1$s - donate URL, %2$s - rating, %3$s - thanks.
+#: class-sticky-header-2020.php:2066
+#: class-sticky-header-2020.php:2147
+msgid "If you find the plugin useful and would like to support my work, please consider making a <a href=\"%1$s\" target=\"_blank\">donation</a>. <br>It would make me very happy if you would leave a %2$s rating. %3$s"
+msgstr ""
+
+#. Translators: %1$s - 5 stars, %2$s - thanks.
+#: class-sticky-header-2020.php:2074
+msgid "It would make me very happy if you would leave a %1$s rating. %2$s"
+msgstr ""
+
+#. Translators: %1$s - extensions URL.
+#: class-sticky-header-2020.php:2104
+msgid "You are using the free version. Get the <a href=\"%1$s\" target=\"_blank\"><b>PRO</b> version</a>. "
+msgstr ""
+
+#. Translators: %1$s - pro version label, %2$s - PRO URL.
+#: class-sticky-header-2020.php:2110
+msgid "Thank you for purchasing the <a href=\"%1$s\" target=\"_blank\"><b>PRO</b> version</a>! "
+msgstr ""
+
+#. Translators: %1$s - plugins URL, %2$s - heart icon, %3$s - extensions URL, %4$s - star icon, %5$s - maybe PRO details.
+#: class-sticky-header-2020.php:2117
+msgid "%5$sCheck out my other <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer\">%2$s free plugins</a> on WordPress.org and the <a href=\"%3$s\" target=\"_blank\" rel=\"noreferrer\">%4$s other extensions</a> available!"
+msgstr ""
+
+#. Translators: %1$s - plugin name.
+#: class-sticky-header-2020.php:2136
+msgid "%1$s plugin was activated!"
+msgstr ""
+
+#: class-sticky-header-2020.php:2225
+msgid "Cusomizer"
+msgstr ""
+
+#: class-sticky-header-2020.php:2226
+msgid "Plugin URL"
+msgstr ""
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: pro-settings.php:34
+msgid "Thank you for purchasing the %1$s version!<br>See more %2$sdetails%3$s."
+msgstr ""
+
+#. Translators: %1$s - pro version label, %2$s - link, %3$s - end link.
+#: pro-settings.php:43
+msgid "Currently the license key is not active and some of the PRO features are disabled. Go to license key %1$ssettings%2$s."
+msgstr ""
+
+#: pro-settings.php:342
+msgid "License Key"
+msgstr ""
+
+#: pro-settings.php:351
+msgid "Validate"
+msgstr ""
+
+#: pro-settings.php:353
+msgid "Activate"
+msgstr ""
+
+#. Translators: %s - expire date.
+#: pro-settings.php:366
+msgid "The license key expiration date is %s."
+msgstr ""
+
+#: pro-settings.php:477
+msgid "Your license key is not valid. Please validate the license key and review one more time the pro settings, these might have been reset to defaults."
+msgstr ""
+
+#: pro-settings.php:505
+msgid "The settings were imported"
+msgstr ""
